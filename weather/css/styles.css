@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'lucida_sans_unicoderegular';
+    src: url('../font/l_10646-webfont.woff2') format('woff2'),
+    url('../font/l_10646-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'lucida_sans_unicoderegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #3399cc;
+    border: 25px solid #2B81AC;
+    color: #FFFFFF;
+}
+
+li {
+    display: inline-block;
+}
+
+i {
+    font-family: 'Weather Icons', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 12px;
+    font-size: 42px;
+    line-height: 61px;
+    display: inline-block;
+    vertical-align: text-top;
+    opacity: 0.7;
+}
+
+.header {
+    margin-top: 60px;
+    margin-left: 135px;
+}
+
+.header__title {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.header__icon {
+    opacity: 1;
+    font-size: 27px;
+    line-height: 39px;
+    vertical-align: baseline;
+}
+
+.forecast__cities-list {
+    margin: 35px 135px;
+    font-size: 0;
+    height: 100%;
+    min-height: 100%;
+    border: 2px solid #FFFFFF;
+}
+
+.forecast__list-item {
+    box-sizing: border-box;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    height: 100%;
+    min-height: 100%;
+    border: 2px solid #FFFFFF;
+    padding: 25px 0;
+}
+
+.forecast__cities-list:hover > .forecast__list-item:not(:hover) {
+    opacity: 0.3;
+    transition: all .1s ease-in;
+}
+
+.forecast__list-item_one-box {
+    width: 25%;
+}
+
+.forecast__list-item_two-box {
+    width: 50%;
+}
+
+.forecast__list-item_four-box {
+    width: 100%;
+}
+
+.forecast__list-item_pale-blue {
+    background: #71b8db;
+}
+
+.forecast__list-item_azurine {
+    background: #33CCCC;
+}
+.forecast__list-item_burgundy {
+    background: #996699;
+}
+
+.forecast__list-item_red {
+    background: #C24747;
+}
+
+.forecast__list-item_orange {
+    background: #E2674A;
+}
+
+.forecast__list-item_yellow {
+    background: #FFCC66;
+}
+
+.forecast__list-item_bright-green {
+    background: #99CC99;
+}
+
+.forecast__list-item_pale-gray {
+    background: #669999;
+}
+
+.forecast__list-item_pink {
+    background: #CC6699;
+}
+
+.forecast__list-item_green {
+    background: #339966;
+}
+
+.forecast__list-item_gray {
+    background: #666699;
+}
+
+.forecast__city-name {
+    margin-bottom: 10px;
+}
+
+.forecast__city-temperature {
+    opacity: 0.7;
+}
+
+.footer {
+    margin-left: 135px;
+    font-size: 16px;
+    line-height: 19px;
+}
